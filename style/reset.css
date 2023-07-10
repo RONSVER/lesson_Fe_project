@@ -3,4 +3,25 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family:'Inter', 'Arial', sans-serif;
+}
+
+@font-face {
+    font-family: "Oswald-Medium";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Oswald"), 
+    url("../flex-fonts/Oswald-Medium.woff2") format("woff2"),
+    url("../flex-fonts/Oswald-Medium.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Inter"), 
+    url("../flex-fonts/Inter-Regular.woff2") format("woff2"),
+    url("../flex-fonts/Inter-Regular.woff") format("woff");
+    font-display: swap;
 }

@@ -1,3 +1,9 @@
+/* добавить правильный шрифт */
+
+body {
+    height: 10000px;
+}
+
 /* ------------ header setting -------------  */
 
 header {
@@ -74,4 +80,159 @@ header .span-header {
     margin-bottom: 90px;
     color: #999;
    
+}
+
+/* ------------ main setting -------------  */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1-main {
+    color: #404149;
+    margin: 100px;
+}
+
+.cards {
+    width: 350px;
+    height: 700px;
+    flex-shrink: 0;
+    
+}
+
+.div-container-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.div-container-lines {
+    display: flex;
+    /* justify-content: space-between;
+    gap: 500px; */
+    
+}
+
+.line {
+    background-color: #F7654A;
+    width: 55px;
+    height: 6px; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.h3-cards-main {
+    margin-bottom: 25px;
+}
+
+.p-cards-main {
+    color: #999;
+}
+
+.other-info-container {
+    background-color: #F7654A;
+    width: 100%;
+    height: 181px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 200px;
+     
+}
+
+.h2-button-container {
+    font-size: 57px;
+    font-weight: 537px;
+    color: #FFFFFF;
+}
+
+.h3-button-container {
+    font-weight: 562px;
+    font-size: 29px;
+    color: #FFFFFF;
+
+}
+
+.button {
+    /* до делать ширину текста в кнопке */
+    width: 175px;
+    height: 49px;
+    background-color: #FFFFFF;
+    border: none;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: normal;
+    letter-spacing: 0.7px;
+}
+
+.headlines-other-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box-button-other-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.what-are-we-doing-cards-container {
+    margin: 200px;
+}
+
+.what-are-we-doing-cards {
+    width: 350px;
+    height: 250px;
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: -100px;
+}
+
+.img-what-are-we-doing-cards {
+    height: 48px;
+    width: 50px;
+    margin-left: 145px;
+    margin-right: 145px;
+}
+
+/* доделать ширину шрифта и подключить */
+
+.h4-what-are-we-doing-cards {
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.one-h4-card {
+    margin-top: 50px;
+}
+
+.h2-what-are-we-doing-cards-container {
+    margin-top: 150px;
+}
+
+.cards-box-two {
+    /* ДОДЕЛАТЬ */
+    display: flex;
+    flex-flow: wrap;
+    gap: 15px;
+    justify-content: center;
 }
